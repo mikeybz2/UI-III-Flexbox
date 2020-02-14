@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border-sty;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -31,8 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+/*ol, ul {
+	list-style: none;*/
 }
 blockquote, q {
 	quotes: none;
@@ -64,3 +64,198 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	margin: 20%;
+}
+nav{
+	
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center ;
+	padding-bottom: 5%;
+
+	
+}
+
+logo{
+	display:flex;
+	align-items: center;
+	
+
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+.middlesec{
+	display:flex; 
+	
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 5%;
+}
+.middle{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 45%;
+}
+
+.middle-circle{
+	width: 45%;
+
+}
+.middle-circle img{
+	width: 100%;
+}
+
+
+.button0, h1{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+}
+
+
+
+h1{
+	font-size: 330%;
+	text-align: center;
+}
+
+
+	
+
+
+
+ 
+
+
+.middle-title button1{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+
+}
+
+.topm{
+	display:flex;
+	align-content: space-around;
+	margin: 0 2 0 2%; 
+	padding-top: 3%;
+	border-top: solid;
+
+}
+
+.code-img{
+	
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.bottomm{
+	display:flex;
+	align-content: space-between;
+	padding-bottom: 2%;
+	border-bottom: solid;
+}
+
+footer{
+	padding-top: 2%;
+}
+	p{
+		line-height: 2;
+		padding-bottom: 3%;
+		padding-top: 3%;
+	}
+	
+	.copyright{
+		text-align: center;
+	}
+
+
+
+
+	/*Services page*/
+
+	body{
+
+		font-size: 14px;
+		
+	}
+
+	.head-services{
+		font-size: 200%;
+		text-align: start;
+		
+		padding-top: 3%;
+	}
+
+	.middlepg2{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		border-bottom: solid;
+		
+		border-top: solid;
+		padding-bottom: 3%;
+		padding-top: 3%;
+
+		
+		
+		
+	}
+
+	.box{
+		display:flex;
+		flex-direction: column;
+		align-content: flex-start;
+		
+		border-style: solid;
+		border-width: 1px;
+		width: 45%;
+		height: 48%;
+		margin: 20px;
+		padding: 1%;
+		background-color: #e6f2ee;
+		
+	}
+	.bottom-facts{
+		padding-top: 3%;
+	}
+
+	.button1{
+		padding-right: 70%;
+	}
+
+	.bottompg2{
+	display:flex; 
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-bottom: 5%;
+	
+		
+
+	}
+
+	.bottom-services {
+		display:flex;
+		flex-direction: column;
+		width: 30%;
+		justify-content: space-evenly;
+	
+	
+	
+	}
+
+	
+ul{
+
+	padding-left: 20%;
+}
+	
